@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "monospace" , sans-serif;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:30px 10%;
+  background-color: rgb(255, 255, 255);
+  color: white
+}
+
+nav ul li a:hover
+{
+    color: grey
+    transition:all
+}
+
+.logo
+{
+margin-right: auto;
+}
+
+nav  ul li 
+{
+display: inline-block;
+padding: 30px;
+padding-right: 40px;
+}
+
+li , a , button 
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: grey;
+}
+
+
