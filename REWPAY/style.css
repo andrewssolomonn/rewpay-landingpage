@@ -3,23 +3,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "monospace" , sans-serif;
+    background-color: black;
 }
 
 header
 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding:30px 10%;
-  background-color: rgb(255, 255, 255);
-  color: white
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-top: 200px;
 }
 
 nav ul li a:hover
 {
     color: grey
-    transition:all
+    transition:all;
 }
 
 .logo
@@ -34,16 +34,93 @@ padding: 30px;
 padding-right: 40px;
 }
 
-li , a , button 
+li , a 
 {
-    font-size: 20px;
+    background-color: white;
     text-decoration: none;
-    color: black;
+    color:black;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:x-large;
 }
 
 a:hover
 {
     color: grey;
 }
+
+.paragraph-container {
+    margin-top: 10px; /* Adjust the margin value as needed */
+    padding-left: 60px;
+}
+
+.content
+{
+   margin-top: 100px; 
+   padding-left: 60px;
+   font-size:  30px;
+   font-family: 'Saira Condensed', sans-serif;
+   color:white;
+   letter-spacing: 9px;
+   font-weight: 100px;
+}
+
+p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 25px;
+    margin-right: auto;
+    color:white;
+    font-weight: 0px;
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+
+button
+{
+    margin-left: 61px;
+    font-size: 30px; 
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-family: 'Saira Condensed' , sans-serif;
+    color: white;
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: background-color 0.8s ease;
+}
+
+button:hover
+{
+    color: grey;
+}
+
+.clients h3
+{
+    font-family: 'Saira Condensed', sans-serif;
+    padding-top: 200px;
+    padding-left: 50px;
+    color: white;
+    font-size: 40px;
+    opacity: 0.5;
+    transition: background-color 1s ease;
+}
+
+.clients 
+{
+   align-items: center;  
+}
+
+.clients img 
+{ 
+    margin-top: 20px;
+    width: 130px;
+    height: auto;
+    
+}
+
+
+
+
 
 
