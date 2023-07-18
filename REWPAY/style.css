@@ -48,8 +48,7 @@ a:hover
     color: grey;
 }
 
-.paragraph-container 
-{
+.paragraph-container {
     margin-top: 10px; /* Adjust the margin value as needed */
     padding-left: 60px;
 }
@@ -119,14 +118,13 @@ button:hover
     width: 100px;
 }
 
-.container 
-{
+.container {
     position: relative;
     width: 100%; 
     height: 100%; 
-}
+  }
   
-.container img {
+  .container img {
     position: absolute;
     top: 130px;; 
     left: 1630px; 
@@ -134,11 +132,12 @@ button:hover
     height:500px; 
   }
 
-.container-2
-{
+  .container-2
+  {
    position: relative;
    width: 100%;
    height: 100%;    
+   
 }
 
 .container-2 img
@@ -158,3 +157,11 @@ button:hover
     width: 635px; 
     height: 250px; 
 }
+
+
+
+
+
+
+
+
