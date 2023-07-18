@@ -48,7 +48,8 @@ a:hover
     color: grey;
 }
 
-.paragraph-container {
+.paragraph-container 
+{
     margin-top: 10px; /* Adjust the margin value as needed */
     padding-left: 60px;
 }
@@ -57,7 +58,7 @@ a:hover
 {
    margin-top: 100px; 
    padding-left: 60px;
-   font-size:  30px;
+   font-size:  40px;
    font-family: 'Saira Condensed', sans-serif;
    color:white;
    letter-spacing: 9px;
@@ -67,19 +68,18 @@ a:hover
 p{
     font-family: 'Saira Condensed', sans-serif;
     font-style: normal;
-    line-height: 25px;
-    font-size: 25px;
+    font-size: 35px;
     margin-right: auto;
     color:white;
     font-weight: 0px;
-    line-height: 80px;
+    line-height: 70px;
     letter-spacing: 3px;
 }
 
 button
 {
     margin-left: 61px;
-    font-size: 30px; 
+    font-size: 40px; 
     padding: 10px 20px;
     margin-top: 40px;
     font-family: 'Saira Condensed' , sans-serif;
@@ -98,29 +98,63 @@ button:hover
 .clients h3
 {
     font-family: 'Saira Condensed', sans-serif;
-    padding-top: 200px;
+    padding-top: 70px;
     padding-left: 50px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.5;
     transition: background-color 1s ease;
 }
 
 .clients 
 {
+   padding-top: 300px;
    align-items: center;  
+   margin-bottom: 100px;
 }
 
 .clients img 
 { 
     margin-top: 20px;
-    width: 130px;
-    height: auto;
-    
+    width: 100px;
 }
 
+.container 
+{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+}
+  
+.container img {
+    position: absolute;
+    top: 130px;; 
+    left: 1630px; 
+    width: 350px; 
+    height:500px; 
+  }
 
+.container-2
+{
+   position: relative;
+   width: 100%;
+   height: 100%;    
+}
 
+.container-2 img
+{
+    position: absolute;
+    top: 380px;
+    left: 2000px;
+    width: 420px; 
+    height: 250px; 
+}
 
-
-
+.container-3 img
+{
+    position: absolute;
+    top: 215px;
+    left: 2000px;
+    width: 635px; 
+    height: 250px; 
+}
